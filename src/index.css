@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #111315;
+  font-family: "DM Sans", "Courier New", Courier, monospace;
+}
+
+.bg-image {
+  position: absolute;
+  top: 0;
+  z-index: -10;
+  width: 100vw;
+  height: 30%;
+  background-image: url(./assets/bg-cafe.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
